@@ -11,7 +11,7 @@ public class Main {
         String sentence2 = "so don’t waste it";
         String sentence3 = "living someone else’s life";
         String sentence4 = "Steve Jobs";
-        System.out.println(sentence1 + "\n" + sentence2 + "\n" + sentence3 + "\n" + sentence4 + "\n end task #1");
+        System.out.println(sentence1 + "\n" + sentence2 + "\n" + sentence3 + "\n" + sentence4);
          */
         //2. Пользователь вводит с клавиатуры два числа. Первое
         //число — это значение, второе число процент, который
@@ -77,6 +77,7 @@ public class Main {
         //(если введено значение от 9 до 11).
         //Если пользователь ввел значение не в диапазоне от 1
         //до 12 требуется вывести сообщение об ошибке.
+        /*
         int month;
         System.out.println("Enter the month in numeric format");
         month = scanner.nextInt();
@@ -91,5 +92,22 @@ public class Main {
         } else {
             System.out.println("You entered a number not in the range from 1 to 12.");
         }
+         */
+        //6. Пользователь вводит с клавиатуры количество метров. В зависимости от выбора пользователя программа
+        //переводит метры в мили, дюймы или ярды.
+        /*
+        double meters;
+        double miles = 1609.34;
+        System.out.println("Введите метры");
+        meters = scanner.nextInt();
+        double result = meters / miles;
+        System.out.println("Результат: " + result);
+         */
+        //7. Пользователь вводит с клавиатуры два числа. Нужно
+        //показать все нечетные числа в указанном диапазоне. Если
+        //границы диапазона указаны неправильно требуется произвести нормализацию границ. Например, пользователь
+        //ввел 20 и 11, требуется нормализация, после которой
+        //начало диапазона станет равно 11, а конец 20.
+        
     }
 }
